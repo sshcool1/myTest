@@ -55,12 +55,8 @@ public class BoardWeb {
 		rsession.tran(new TransactionJob<Void>() {
 			@Override
 			public Void handle(WriteSession wsession) throws Exception {
-				Object[] childNames = rsession.ghostBy("/board/notice").childrenNames().toArray();
-				int name = 0;
-				if(childNames.length > 0 )
-					name = Integer.parseInt(childNames[childNames.length - 1].toString()) + 1;
-					
-				wsession.pathBy("/board/notice/" + name).property("title", req.getFormParameters().get("title")).property("content", req.getFormParameters().get("content")).property("writer", req.getFormParameters().get("writer")) ;
+				int seq = wsession.pathBy("/board/notice").increase("seq").asInt();
+				wsession.pathBy("/board/notice" , seq).property("title", req.getFormParameters().get("title")).property("content", req.getFormParameters().get("content")).property("writer", req.getFormParameters().get("writer")) ;
 				return null;
 			}
 		});

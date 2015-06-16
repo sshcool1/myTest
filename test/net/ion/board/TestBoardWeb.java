@@ -32,5 +32,11 @@ public class TestBoardWeb extends TestBaseBoardWeb{
 		System.out.println("");
 		assertTrue(JsonObject.fromString(response.contentsString()).has("list"));
 	}
+	
+	public void testDelete() { 
+		
+		
+		
+	}
 }
 
