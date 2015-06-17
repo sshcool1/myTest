@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<script type="text/javascript" src="/resource/common/js/jquery.min_1.9.1.js"></script>
+<body>
+	<div id="insert_title" style="display: none;">insert</div>
+	<div id="update_title" style="display: none;">update</div>
+	<form id="frm" name="frm" method="post">
+		<input type="hidden" id="seq" name="seq" />
+		title : <input type="text" id="title" name="title"/><br/>
+		content : <input type="text" id="content" name="content"/><br/>
+	</form>
+	<button id="btn_save" >save</button>
+	<button id="btn_back" >list</button>
+</body>
+<script type="text/javascript">
+
+	var check = "UPDATE";	
+	var action = "/api/board/update";
+	
+	$(document).ready(function() {
+	
+		init();
+		
+		$("#btn_save").click(function(){
+			
+			if(check == "INSERT") 
+				action = "/api/board/insert";
+			
+			$.ajax({
+				type : "post",
+				url : action,
+				data : $("#frm").serialize(),
+				dataType : "text",
+				success : function(data) {
+					$("#btn_back").trigger("click");
+				}
+			});
+			
+		});
+		
+		$("#btn_back").click(function(){
+			document.location.href = "/board/main.html";
+		});
+	});
+	
+	function init(){
+		$("#update_title").show();
+		
+		var seq = getParam("seq");
+		
+		if(seq == null || seq == ""){ 
+			check = "INSERT";
+			$("#update_title").hide();
+			$("#insert_title").show();
+		}
+		if(check == "UPDATE"){
+			$.ajax({
+				type : "get",
+				url : "/api/board/select?seq="+seq,
+				dataType : "text",
+				success : function(data) {
+					var json = JSON.parse(data).result;
+					$("#seq").val(json.seq.vals);
+					$("#title").val(json.title.vals);
+					$("#content").val(json.content.vals);
+				}
+			});
+		}
+		
+	}
+	// url pasing 
+	function getParam ( sname )
+	{
+	  var params = location.search.substr(location.search.indexOf("?")+1);
+	  var sval = "";
+	  params = params.split("&");
+	    for (var i=0; i<params.length; i++)
+	       {
+	         temp = params[i].split("=");
+	         if ( [temp[0]] == sname ) { sval = temp[1]; }
+	       }
+	  return sval;
+	}
+</script>
+</html>

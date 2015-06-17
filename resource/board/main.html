@@ -1,0 +1,67 @@
+<html>
+<script type="text/javascript" src="/resource/common/js/jquery.min_1.9.1.js"></script>
+<body>
+
+ 
+list<br/>
+<table id="data" border="1">
+	<tr >
+		<td>Num</td>
+		<td>Title</td>
+		<td>Content</td>
+		<td>Del</td>
+	</tr>
+</table>
+<button id="btn_ins">입력</button>
+</body>
+
+<form id="frm">
+	<input type="hidden" id="seq" name="seq"/>
+</form>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$.ajax({
+			type : "get",
+			url : "/api/board/main",
+			dataType : "text",
+			success : function(data) {
+				var json = JSON.parse(data).list; 
+				var html ="<tr><td colspan='4'>No data</td></tr>";
+				for(var i =0 ; i<json.length; i ++){
+					var row = json[i];
+					if(i == 0) html = "";
+					html += "<tr><td>"+row.seq.vals+"</td>"
+						 + "<td><a href='#' onclick=\"detail('"+row.seq.vals+"')\">"+row.title.vals+"</td>"
+						 + "<td>"+row.content.vals+"</td>"
+						 + "<td><button onclick=\"deleteBoard('"+row.seq.vals+"')\">Delete</button></td></tr>";
+				}
+				$("#data").append(html);
+			}
+		});
+		
+		$("#btn_ins").click(function(e){
+			e.preventDefault();
+			$("#frm").attr("action","/board/insert.html").submit();
+		});
+	});
+	
+	function detail(seq){
+		$("#seq").val(seq);
+		$("#btn_ins").trigger("click");
+	}
+	
+	function deleteBoard(seq){
+		$("#seq").val(seq);
+		
+		$.ajax({
+			type : "post",
+			url : "/api/board/delete",
+			data : $("#frm").serialize(),
+			dataType : "text",
+			success : function(data) {
+				document.location.href = "/board/main.html";
+			}
+		});
+	}
+</script>
+</html>
