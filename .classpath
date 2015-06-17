@@ -4,10 +4,6 @@
 	<classpathentry kind="src" path="test"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/3"/>
-	<classpathentry kind="lib" path="C:/WORK/git/aradon311/lib/ref/iframework_2.3.jar" sourcepath="/IFramework"/>
-	<classpathentry kind="lib" path="C:/WORK/git/aradon311/lib/reflib/jsr311_fat.jar"/>
-	<classpathentry kind="lib" path="C:/WORK/git/aradon311/lib/reflib/apache_extend_fat.jar"/>
-	<classpathentry kind="lib" path="C:/WORK/git/aradon311/lib/reflib/netty-3.2.7.Final.jar"/>
 	<classpathentry kind="lib" path="lib/craken_0.9.jar" sourcepath="/craken"/>
 	<classpathentry kind="lib" path="lib/asm-3.3.1.jar"/>
 	<classpathentry kind="lib" path="lib/common_apache_fat.jar"/>
@@ -20,5 +16,8 @@
 	<classpathentry kind="lib" path="lib/isearcher_4.10.jar"/>
 	<classpathentry kind="lib" path="lib/cglib-nodep-2.2.3.jar"/>
 	<classpathentry kind="lib" path="lib/aradon311_0.9.jar"/>
+	<classpathentry kind="lib" path="lib/apache_extend_fat.jar"/>
+	<classpathentry kind="lib" path="lib/jsr311_fat.jar"/>
+	<classpathentry kind="lib" path="lib/iframework_2.3.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

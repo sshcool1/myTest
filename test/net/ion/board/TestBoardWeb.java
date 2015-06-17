@@ -5,38 +5,59 @@ import net.ion.nradon.stub.StubHttpResponse;
 
 
 public class TestBoardWeb extends TestBaseBoardWeb{
-
+	
+	StubHttpResponse response ;
+	
+	//list
 	public void testMain() throws Exception {
-		StubHttpResponse response = ss.request("/board").get() ;
+		response = ss.request("/board").get() ;
 		assertTrue(JsonObject.fromString(response.contentsString()).has("list"));
 	}
 	
+	//select
+	public void testSelect() throws Exception {
+		
+		ss.request("/board/insert").postParam("title", "title").postParam("content", "This is Notice").post() ;
+		
+		response = ss.request("/board/select?seq=1").get();
+		
+		JsonObject fromString = JsonObject.fromString(response.contentsString()).get("result").getAsJsonObject();
+		assertEquals("title", fromString.get("title").getAsJsonObject().get("vals").getAsString());
+	}
+	
+	//insert
 	public void testInsert() throws Exception {
+		response = ss.request("/board/insert").postParam("title", "title").postParam("content", "This is Notice").post() ;
+		assertEquals("success" ,JsonObject.fromString(response.contentsString()).get("result").getAsString());
+	}
+	
+	
+	//update 
+	public void testUpdate() throws Exception {
+		ss.request("/board/insert").postParam("title", "title").postParam("content", "This is Notice").post() ;
+		response = ss.request("/board/select?seq=1").get();
+		JsonObject fromString = JsonObject.fromString(response.contentsString()).get("result").getAsJsonObject();
+		assertEquals("title", fromString.get("title").getAsJsonObject().get("vals").getAsString() );
 		
-		StubHttpResponse response = ss.request("/board/insert")
-									.postParam("title", "title")
-									.postParam("content", "This is Notice")
-									.postParam("writer", "It's Me!!").post() ;
+		ss.request("/board/update").postParam("seq", "1").postParam("title", "title2").post() ;
 		
-		System.out.println("request : " + JsonObject.fromString(response.contentsString()));
+		response = ss.request("/board/select?seq=1").get();
+		fromString = JsonObject.fromString(response.contentsString()).get("result").getAsJsonObject();
+		assertEquals("title2", fromString.get("title").getAsJsonObject().get("vals").getAsString() );
+	}
+	
+	//delete
+	public void testDelete() throws Exception { 
 		
-		response = ss.request("/board/insert")
-				.postParam("title", "2title")
-				.postParam("content","2This is Notice")
-				.postParam("writer", "2It's Me!!").post() ;
-		
-		System.out.println("request : " + JsonObject.fromString(response.contentsString()));
+		ss.request("/board/insert").postParam("title", "title").postParam("content", "This is Notice").post() ;
 		
 		response = ss.request("/board").get() ;
+		assertEquals(1, JsonObject.fromString(response.contentsString()).get("list").getAsJsonArray().size());
 		
-		System.out.println("");
-		assertTrue(JsonObject.fromString(response.contentsString()).has("list"));
-	}
-	
-	public void testDelete() { 
+		ss.request("/board/delete").postParam("seq", "1").post();
 		
-		
-		
+		response = ss.request("/board").get() ;
+		assertEquals(0, JsonObject.fromString(response.contentsString()).get("list").getAsJsonArray().size());
 	}
 }
 
