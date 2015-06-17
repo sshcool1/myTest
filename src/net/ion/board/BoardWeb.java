@@ -20,7 +20,7 @@ import net.ion.radon.core.ContextParam;
 
 import com.google.common.base.Function;
 
-@Path("/board")
+@Path("/api/board")
 public class BoardWeb {
 	
 	private ReadSession rsession;
@@ -30,7 +30,7 @@ public class BoardWeb {
 	}
 	//list
 	@GET
-	@Path("")
+	@Path("/main")
 	public JsonObject boardMain() {
 		ReadChildren children = rsession.ghostBy("/board/notice").children();
 		
@@ -81,7 +81,11 @@ public class BoardWeb {
 	@GET
 	@Path("/select")
 	public JsonObject boardSelect(@QueryParam("seq") String seq){
+		if(!exists(seq)) {
+			throw new IllegalArgumentException();
+		}
 		ReadNode rNode = rsession.pathBy("/board/notice", seq);
+		
 		return new JsonObject().put("result" , rNode.toValueJson() );
 	}
 	
@@ -89,6 +93,9 @@ public class BoardWeb {
 	@POST
 	@Path("/delete") 
 	public JsonObject boardDelete(@FormParam("seq")final String seq ) throws InterruptedException, ExecutionException  {
+		if(!exists(seq)) {
+			throw new IllegalArgumentException();
+		}
 		return new JsonObject().put("result" , rsession.tran(new TransactionJob<String>() {
 			@Override
 			public String handle(WriteSession wsession) throws Exception {

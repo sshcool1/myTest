@@ -15,7 +15,7 @@
 	<classpathentry kind="lib" path="lib/search4104_fat.jar"/>
 	<classpathentry kind="lib" path="lib/isearcher_4.10.jar"/>
 	<classpathentry kind="lib" path="lib/cglib-nodep-2.2.3.jar"/>
-	<classpathentry kind="lib" path="lib/aradon311_0.9.jar"/>
+	<classpathentry kind="lib" path="lib/aradon311_0.9.jar" sourcepath="/Aradon311"/>
 	<classpathentry kind="lib" path="lib/apache_extend_fat.jar"/>
 	<classpathentry kind="lib" path="lib/jsr311_fat.jar"/>
 	<classpathentry kind="lib" path="lib/iframework_2.3.jar"/>
