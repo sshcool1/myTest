@@ -1,0 +1,264 @@
+[main] INFO  org.infinispan.factories.GlobalComponentRegistry  - ISPN000128: Infinispan version: Infinispan 'Insanely Bad Elf' 7.2.2.Final
+[main] WARN  org.infinispan.transaction.lookup.GenericTransactionManagerLookup  - ISPN000104: Falling back to DummyTransactionManager from Infinispan
+[main] INFO  net.ion.craken.node.Repository  - Workspace[test] defined
+[main] INFO  net.ion.craken.node.Repository  - emanon started
+[RADON-STARTUP-THREAD] WARN  net.ion.nradon.netty.NettyWebServer  - PORT 9000
+[Thread-2] INFO  net.ion.craken.node.Repository  - emanon shutdowned
+[main] INFO  org.infinispan.factories.GlobalComponentRegistry  - ISPN000128: Infinispan version: Infinispan 'Insanely Bad Elf' 7.2.2.Final
+[main] WARN  org.infinispan.transaction.lookup.GenericTransactionManagerLookup  - ISPN000104: Falling back to DummyTransactionManager from Infinispan
+[main] INFO  net.ion.craken.node.Repository  - Workspace[admin] defined
+[main] INFO  net.ion.craken.node.Repository  - emanon started
+[scripter] INFO  net.ion.framework.schedule.Scheduler  - Scheduler started. :{name=scripter,jobs={}}
+[Thread-2] INFO  net.ion.craken.node.Repository  - emanon shutdowned
+[main] INFO  org.infinispan.factories.GlobalComponentRegistry  - ISPN000128: Infinispan version: Infinispan 'Insanely Bad Elf' 7.2.2.Final
+[main] WARN  org.infinispan.transaction.lookup.GenericTransactionManagerLookup  - ISPN000104: Falling back to DummyTransactionManager from Infinispan
+[main] INFO  net.ion.craken.node.Repository  - Workspace[admin] defined
+[main] INFO  net.ion.craken.node.Repository  - emanon started
+[scripter] INFO  net.ion.framework.schedule.Scheduler  - Scheduler started. :{name=scripter,jobs={}}
+[Thread-2] INFO  net.ion.craken.node.Repository  - emanon shutdowned
+[main] INFO  org.infinispan.factories.GlobalComponentRegistry  - ISPN000128: Infinispan version: Infinispan 'Insanely Bad Elf' 7.2.2.Final
+[main] WARN  org.infinispan.transaction.lookup.GenericTransactionManagerLookup  - ISPN000104: Falling back to DummyTransactionManager from Infinispan
+[main] INFO  net.ion.craken.node.Repository  - Workspace[admin] defined
+[main] INFO  net.ion.craken.node.Repository  - emanon started
+[scripter] INFO  net.ion.framework.schedule.Scheduler  - Scheduler started. :{name=scripter,jobs={}}
+[Thread-2] INFO  net.ion.craken.node.Repository  - emanon shutdowned
+[main] INFO  org.infinispan.factories.GlobalComponentRegistry  - ISPN000128: Infinispan version: Infinispan 'Insanely Bad Elf' 7.2.2.Final
+[main] WARN  org.infinispan.transaction.lookup.GenericTransactionManagerLookup  - ISPN000104: Falling back to DummyTransactionManager from Infinispan
+[main] INFO  net.ion.craken.node.Repository  - Workspace[admin] defined
+[main] INFO  net.ion.craken.node.Repository  - emanon started
+[scripter] INFO  net.ion.framework.schedule.Scheduler  - Scheduler started. :{name=scripter,jobs={}}
+[Thread-2] INFO  net.ion.craken.node.Repository  - emanon shutdowned
+[main] INFO  org.infinispan.factories.GlobalComponentRegistry  - ISPN000128: Infinispan version: Infinispan 'Insanely Bad Elf' 7.2.2.Final
+[main] WARN  org.infinispan.transaction.lookup.GenericTransactionManagerLookup  - ISPN000104: Falling back to DummyTransactionManager from Infinispan
+[main] INFO  net.ion.craken.node.Repository  - Workspace[admin] defined
+[main] INFO  net.ion.craken.node.Repository  - emanon started
+[scripter] INFO  net.ion.framework.schedule.Scheduler  - Scheduler started. :{name=scripter,jobs={}}
+[Thread-2] INFO  net.ion.craken.node.Repository  - emanon shutdowned
+[main] INFO  org.infinispan.factories.GlobalComponentRegistry  - ISPN000128: Infinispan version: Infinispan 'Insanely Bad Elf' 7.2.2.Final
+[main] WARN  org.infinispan.transaction.lookup.GenericTransactionManagerLookup  - ISPN000104: Falling back to DummyTransactionManager from Infinispan
+[main] INFO  net.ion.craken.node.Repository  - Workspace[admin] defined
+[main] INFO  net.ion.craken.node.Repository  - emanon started
+[scripter] INFO  net.ion.framework.schedule.Scheduler  - Scheduler started. :{name=scripter,jobs={}}
+[Thread-2] INFO  net.ion.craken.node.Repository  - emanon shutdowned
+[main] INFO  org.infinispan.factories.GlobalComponentRegistry  - ISPN000128: Infinispan version: Infinispan 'Insanely Bad Elf' 7.2.2.Final
+[main] WARN  org.infinispan.transaction.lookup.GenericTransactionManagerLookup  - ISPN000104: Falling back to DummyTransactionManager from Infinispan
+[main] INFO  net.ion.craken.node.Repository  - Workspace[admin] defined
+[main] INFO  net.ion.craken.node.Repository  - emanon started
+[scripter] INFO  net.ion.framework.schedule.Scheduler  - Scheduler started. :{name=scripter,jobs={}}
+[RADON-STARTUP-THREAD] WARN  net.ion.nradon.netty.NettyWebServer  - PORT 9001
+[RADON-STARTUP-THREAD] WARN  net.ion.nradon.netty.NettyWebServer  - PORT 9001
+[RADON-STARTUP-THREAD] WARN  net.ion.nradon.netty.NettyWebServer  - PORT 9002
+[RADON-STARTUP-THREAD] WARN  net.ion.nradon.netty.NettyWebServer  - PORT 9002
+[RADON-STARTUP-THREAD] WARN  net.ion.nradon.netty.NettyWebServer  - PORT 9002
+[Thread-2] INFO  net.ion.craken.node.Repository  - emanon shutdowned
+[RADON-STARTUP-THREAD] WARN  net.ion.nradon.netty.NettyWebServer  - PORT 9002
+[RADON-STARTUP-THREAD] WARN  net.ion.nradon.netty.NettyWebServer  - PORT 9002
+[RADON-STARTUP-THREAD] WARN  net.ion.nradon.netty.NettyWebServer  - PORT 9002
+[RADON-STARTUP-THREAD] WARN  net.ion.nradon.netty.NettyWebServer  - PORT 9002
+[RADON-STARTUP-THREAD] WARN  net.ion.nradon.netty.NettyWebServer  - PORT 9002
+[RADON-STARTUP-THREAD] WARN  net.ion.nradon.netty.NettyWebServer  - PORT 9002
+[RADON-STARTUP-THREAD] WARN  net.ion.nradon.netty.NettyWebServer  - PORT 9002
+[RADON-STARTUP-THREAD] WARN  net.ion.nradon.netty.NettyWebServer  - PORT 9002
+[RADON-STARTUP-THREAD] WARN  net.ion.nradon.netty.NettyWebServer  - PORT 9002
+[RADON-STARTUP-THREAD] WARN  net.ion.nradon.netty.NettyWebServer  - PORT 9002
+[RADON-STARTUP-THREAD] WARN  net.ion.nradon.netty.NettyWebServer  - PORT 9002
+[RADON-STARTUP-THREAD] WARN  net.ion.nradon.netty.NettyWebServer  - PORT 9002
+[main] INFO  org.infinispan.factories.GlobalComponentRegistry  - ISPN000128: Infinispan version: Infinispan 'Insanely Bad Elf' 7.2.2.Final
+[main] WARN  org.infinispan.transaction.lookup.GenericTransactionManagerLookup  - ISPN000104: Falling back to DummyTransactionManager from Infinispan
+[main] INFO  net.ion.craken.node.Repository  - Workspace[admin] defined
+[main] INFO  net.ion.craken.node.Repository  - emanon started
+[scripter] INFO  net.ion.framework.schedule.Scheduler  - Scheduler started. :{name=scripter,jobs={}}
+[RADON-STARTUP-THREAD] WARN  net.ion.nradon.netty.NettyWebServer  - PORT 9001
+[monitor-message-thread-0] INFO  net.ion.board.webapp.HTMLTemplateEngine  - ./resource/message/messages.utf8.xml changed
+[monitor-message-thread-0] INFO  net.ion.board.webapp.HTMLTemplateEngine  - ./resource/message/messages.utf8.xml changed
+[Thread-2] INFO  net.ion.craken.node.Repository  - emanon shutdowned
+[main] INFO  org.infinispan.factories.GlobalComponentRegistry  - ISPN000128: Infinispan version: Infinispan 'Insanely Bad Elf' 7.2.2.Final
+[main] WARN  org.infinispan.transaction.lookup.GenericTransactionManagerLookup  - ISPN000104: Falling back to DummyTransactionManager from Infinispan
+[main] INFO  net.ion.craken.node.Repository  - Workspace[admin] defined
+[main] INFO  net.ion.craken.node.Repository  - emanon started
+[scripter] INFO  net.ion.framework.schedule.Scheduler  - Scheduler started. :{name=scripter,jobs={}}
+[RADON-STARTUP-THREAD] WARN  net.ion.nradon.netty.NettyWebServer  - PORT 9001
+[main] INFO  org.infinispan.factories.GlobalComponentRegistry  - ISPN000128: Infinispan version: Infinispan 'Insanely Bad Elf' 7.2.2.Final
+[main] WARN  org.infinispan.transaction.lookup.GenericTransactionManagerLookup  - ISPN000104: Falling back to DummyTransactionManager from Infinispan
+[main] INFO  net.ion.craken.node.Repository  - Workspace[admin] defined
+[main] INFO  net.ion.craken.node.Repository  - emanon started
+[scripter] INFO  net.ion.framework.schedule.Scheduler  - Scheduler started. :{name=scripter,jobs={}}
+[RADON-STARTUP-THREAD] WARN  net.ion.nradon.netty.NettyWebServer  - PORT 9001
+[Thread-2] INFO  net.ion.craken.node.Repository  - emanon shutdowned
+[Thread-2] INFO  net.ion.craken.node.Repository  - emanon shutdowned
+[main] INFO  org.infinispan.factories.GlobalComponentRegistry  - ISPN000128: Infinispan version: Infinispan 'Insanely Bad Elf' 7.2.2.Final
+[main] WARN  org.infinispan.transaction.lookup.GenericTransactionManagerLookup  - ISPN000104: Falling back to DummyTransactionManager from Infinispan
+[main] INFO  net.ion.craken.node.Repository  - Workspace[admin] defined
+[main] INFO  net.ion.craken.node.Repository  - emanon started
+[scripter] INFO  net.ion.framework.schedule.Scheduler  - Scheduler started. :{name=scripter,jobs={}}
+[RADON-STARTUP-THREAD] WARN  net.ion.nradon.netty.NettyWebServer  - PORT 9001
+[Thread-2] INFO  net.ion.craken.node.Repository  - emanon shutdowned
+[main] INFO  org.infinispan.factories.GlobalComponentRegistry  - ISPN000128: Infinispan version: Infinispan 'Insanely Bad Elf' 7.2.2.Final
+[main] WARN  org.infinispan.transaction.lookup.GenericTransactionManagerLookup  - ISPN000104: Falling back to DummyTransactionManager from Infinispan
+[main] INFO  net.ion.craken.node.Repository  - Workspace[admin] defined
+[main] INFO  net.ion.craken.node.Repository  - emanon started
+[scripter] INFO  net.ion.framework.schedule.Scheduler  - Scheduler started. :{name=scripter,jobs={}}
+[RADON-STARTUP-THREAD] WARN  net.ion.nradon.netty.NettyWebServer  - PORT 9001
+[main] INFO  org.infinispan.factories.GlobalComponentRegistry  - ISPN000128: Infinispan version: Infinispan 'Insanely Bad Elf' 7.2.2.Final
+[main] WARN  org.infinispan.transaction.lookup.GenericTransactionManagerLookup  - ISPN000104: Falling back to DummyTransactionManager from Infinispan
+[main] INFO  net.ion.craken.node.Repository  - Workspace[admin] defined
+[main] INFO  net.ion.craken.node.Repository  - emanon started
+[scripter] INFO  net.ion.framework.schedule.Scheduler  - Scheduler started. :{name=scripter,jobs={}}
+[RADON-STARTUP-THREAD] WARN  net.ion.nradon.netty.NettyWebServer  - PORT 9001
+[main] INFO  org.infinispan.factories.GlobalComponentRegistry  - ISPN000128: Infinispan version: Infinispan 'Insanely Bad Elf' 7.2.2.Final
+[main] WARN  org.infinispan.transaction.lookup.GenericTransactionManagerLookup  - ISPN000104: Falling back to DummyTransactionManager from Infinispan
+[main] INFO  net.ion.craken.node.Repository  - Workspace[admin] defined
+[main] INFO  net.ion.craken.node.Repository  - emanon started
+[scripter] INFO  net.ion.framework.schedule.Scheduler  - Scheduler started. :{name=scripter,jobs={}}
+[RADON-STARTUP-THREAD] WARN  net.ion.nradon.netty.NettyWebServer  - PORT 9001
+[Thread-2] INFO  net.ion.craken.node.Repository  - emanon shutdowned
+[Thread-2] INFO  net.ion.craken.node.Repository  - emanon shutdowned
+[main] INFO  org.infinispan.factories.GlobalComponentRegistry  - ISPN000128: Infinispan version: Infinispan 'Insanely Bad Elf' 7.2.2.Final
+[main] WARN  org.infinispan.transaction.lookup.GenericTransactionManagerLookup  - ISPN000104: Falling back to DummyTransactionManager from Infinispan
+[main] INFO  net.ion.craken.node.Repository  - Workspace[admin] defined
+[main] INFO  net.ion.craken.node.Repository  - emanon started
+[scripter] INFO  net.ion.framework.schedule.Scheduler  - Scheduler started. :{name=scripter,jobs={}}
+[RADON-STARTUP-THREAD] WARN  net.ion.nradon.netty.NettyWebServer  - PORT 9001
+[Thread-2] INFO  net.ion.craken.node.Repository  - emanon shutdowned
+[main] INFO  org.infinispan.factories.GlobalComponentRegistry  - ISPN000128: Infinispan version: Infinispan 'Insanely Bad Elf' 7.2.2.Final
+[main] WARN  org.infinispan.transaction.lookup.GenericTransactionManagerLookup  - ISPN000104: Falling back to DummyTransactionManager from Infinispan
+[main] INFO  net.ion.craken.node.Repository  - Workspace[admin] defined
+[main] INFO  net.ion.craken.node.Repository  - emanon started
+[scripter] INFO  net.ion.framework.schedule.Scheduler  - Scheduler started. :{name=scripter,jobs={}}
+[RADON-STARTUP-THREAD] WARN  net.ion.nradon.netty.NettyWebServer  - PORT 9001
+[main] INFO  org.infinispan.factories.GlobalComponentRegistry  - ISPN000128: Infinispan version: Infinispan 'Insanely Bad Elf' 7.2.2.Final
+[main] WARN  org.infinispan.transaction.lookup.GenericTransactionManagerLookup  - ISPN000104: Falling back to DummyTransactionManager from Infinispan
+[main] INFO  net.ion.craken.node.Repository  - Workspace[admin] defined
+[main] INFO  net.ion.craken.node.Repository  - emanon started
+[scripter] INFO  net.ion.framework.schedule.Scheduler  - Scheduler started. :{name=scripter,jobs={}}
+[RADON-STARTUP-THREAD] WARN  net.ion.nradon.netty.NettyWebServer  - PORT 9000
+[Thread-3] INFO  net.ion.craken.node.Repository  - emanon shutdowned
+[Thread-7] INFO  net.ion.craken.node.Repository  - emanon shutdowned
+[main] INFO  org.infinispan.factories.GlobalComponentRegistry  - ISPN000128: Infinispan version: Infinispan 'Insanely Bad Elf' 7.2.2.Final
+[main] WARN  org.infinispan.transaction.lookup.GenericTransactionManagerLookup  - ISPN000104: Falling back to DummyTransactionManager from Infinispan
+[main] INFO  net.ion.craken.node.Repository  - Workspace[admin] defined
+[main] INFO  net.ion.craken.node.Repository  - emanon started
+[scripter] INFO  net.ion.framework.schedule.Scheduler  - Scheduler started. :{name=scripter,jobs={}}
+[RADON-STARTUP-THREAD] WARN  net.ion.nradon.netty.NettyWebServer  - PORT 9001
+[Thread-3] INFO  net.ion.craken.node.Repository  - emanon shutdowned
+[Thread-2] INFO  net.ion.craken.node.Repository  - emanon shutdowned
+[main] INFO  org.infinispan.factories.GlobalComponentRegistry  - ISPN000128: Infinispan version: Infinispan 'Insanely Bad Elf' 7.2.2.Final
+[main] WARN  org.infinispan.transaction.lookup.GenericTransactionManagerLookup  - ISPN000104: Falling back to DummyTransactionManager from Infinispan
+[main] INFO  net.ion.craken.node.Repository  - Workspace[admin] defined
+[main] INFO  net.ion.craken.node.Repository  - emanon started
+[scripter] INFO  net.ion.framework.schedule.Scheduler  - Scheduler started. :{name=scripter,jobs={}}
+[RADON-STARTUP-THREAD] WARN  net.ion.nradon.netty.NettyWebServer  - PORT 9001
+[Thread-57] INFO  net.ion.craken.node.Repository  - emanon shutdowned
+[main] INFO  org.infinispan.factories.GlobalComponentRegistry  - ISPN000128: Infinispan version: Infinispan 'Insanely Bad Elf' 7.2.2.Final
+[main] WARN  org.infinispan.transaction.lookup.GenericTransactionManagerLookup  - ISPN000104: Falling back to DummyTransactionManager from Infinispan
+[main] INFO  net.ion.craken.node.Repository  - Workspace[admin] defined
+[main] INFO  net.ion.craken.node.Repository  - emanon started
+[scripter] INFO  net.ion.framework.schedule.Scheduler  - Scheduler started. :{name=scripter,jobs={}}
+[RADON-STARTUP-THREAD] WARN  net.ion.nradon.netty.NettyWebServer  - PORT 9001
+[Thread-28] INFO  net.ion.craken.node.Repository  - emanon shutdowned
+[main] INFO  org.infinispan.factories.GlobalComponentRegistry  - ISPN000128: Infinispan version: Infinispan 'Insanely Bad Elf' 7.2.2.Final
+[main] WARN  org.infinispan.transaction.lookup.GenericTransactionManagerLookup  - ISPN000104: Falling back to DummyTransactionManager from Infinispan
+[main] INFO  net.ion.craken.node.Repository  - Workspace[admin] defined
+[main] INFO  net.ion.craken.node.Repository  - emanon started
+[scripter] INFO  net.ion.framework.schedule.Scheduler  - Scheduler started. :{name=scripter,jobs={}}
+[RADON-STARTUP-THREAD] WARN  net.ion.nradon.netty.NettyWebServer  - PORT 9001
+[Thread-47] INFO  net.ion.craken.node.Repository  - emanon shutdowned
+[main] INFO  org.infinispan.factories.GlobalComponentRegistry  - ISPN000128: Infinispan version: Infinispan 'Insanely Bad Elf' 7.2.2.Final
+[main] WARN  org.infinispan.transaction.lookup.GenericTransactionManagerLookup  - ISPN000104: Falling back to DummyTransactionManager from Infinispan
+[main] INFO  net.ion.craken.node.Repository  - Workspace[admin] defined
+[main] INFO  net.ion.craken.node.Repository  - emanon started
+[scripter] INFO  net.ion.framework.schedule.Scheduler  - Scheduler started. :{name=scripter,jobs={}}
+[RADON-STARTUP-THREAD] WARN  net.ion.nradon.netty.NettyWebServer  - PORT 9001
+[RADON-STARTUP-THREAD] WARN  net.ion.nradon.netty.NettyWebServer  - PORT 8999
+[RADON-STARTUP-THREAD] WARN  net.ion.nradon.netty.NettyWebServer  - PORT 8999
+[Thread-7] INFO  net.ion.craken.node.Repository  - emanon shutdowned
+[Thread-3] INFO  net.ion.craken.node.Repository  - emanon shutdowned
+[main] INFO  org.infinispan.factories.GlobalComponentRegistry  - ISPN000128: Infinispan version: Infinispan 'Insanely Bad Elf' 7.2.2.Final
+[main] WARN  org.infinispan.transaction.lookup.GenericTransactionManagerLookup  - ISPN000104: Falling back to DummyTransactionManager from Infinispan
+[main] INFO  net.ion.craken.node.Repository  - Workspace[admin] defined
+[main] INFO  net.ion.craken.node.Repository  - emanon started
+[scripter] INFO  net.ion.framework.schedule.Scheduler  - Scheduler started. :{name=scripter,jobs={}}
+[RADON-STARTUP-THREAD] WARN  net.ion.nradon.netty.NettyWebServer  - PORT 9001
+[main] INFO  org.infinispan.factories.GlobalComponentRegistry  - ISPN000128: Infinispan version: Infinispan 'Insanely Bad Elf' 7.2.2.Final
+[main] WARN  org.infinispan.transaction.lookup.GenericTransactionManagerLookup  - ISPN000104: Falling back to DummyTransactionManager from Infinispan
+[main] INFO  net.ion.craken.node.Repository  - Workspace[admin] defined
+[main] INFO  net.ion.craken.node.Repository  - emanon started
+[scripter] INFO  net.ion.framework.schedule.Scheduler  - Scheduler started. :{name=scripter,jobs={}}
+[RADON-STARTUP-THREAD] WARN  net.ion.nradon.netty.NettyWebServer  - PORT 9001
+[Thread-70] INFO  net.ion.craken.node.Repository  - emanon shutdowned
+[main] INFO  org.infinispan.factories.GlobalComponentRegistry  - ISPN000128: Infinispan version: Infinispan 'Insanely Bad Elf' 7.2.2.Final
+[main] WARN  org.infinispan.transaction.lookup.GenericTransactionManagerLookup  - ISPN000104: Falling back to DummyTransactionManager from Infinispan
+[main] INFO  net.ion.craken.node.Repository  - Workspace[admin] defined
+[main] INFO  net.ion.craken.node.Repository  - emanon started
+[scripter] INFO  net.ion.framework.schedule.Scheduler  - Scheduler started. :{name=scripter,jobs={}}
+[RADON-STARTUP-THREAD] WARN  net.ion.nradon.netty.NettyWebServer  - PORT 9001
+[Thread-7] INFO  net.ion.craken.node.Repository  - emanon shutdowned
+[Thread-3] INFO  net.ion.craken.node.Repository  - emanon shutdowned
+[main] INFO  org.infinispan.factories.GlobalComponentRegistry  - ISPN000128: Infinispan version: Infinispan 'Insanely Bad Elf' 7.2.2.Final
+[main] WARN  org.infinispan.transaction.lookup.GenericTransactionManagerLookup  - ISPN000104: Falling back to DummyTransactionManager from Infinispan
+[main] INFO  net.ion.craken.node.Repository  - Workspace[admin] defined
+[main] INFO  net.ion.craken.node.Repository  - emanon started
+[scripter] INFO  net.ion.framework.schedule.Scheduler  - Scheduler started. :{name=scripter,jobs={}}
+[RADON-STARTUP-THREAD] WARN  net.ion.nradon.netty.NettyWebServer  - PORT 9001
+[Thread-2] INFO  net.ion.craken.node.Repository  - emanon shutdowned
+[Thread-6] INFO  net.ion.craken.node.Repository  - emanon shutdowned
+[main] INFO  org.infinispan.factories.GlobalComponentRegistry  - ISPN000128: Infinispan version: Infinispan 'Insanely Bad Elf' 7.2.2.Final
+[main] WARN  org.infinispan.transaction.lookup.GenericTransactionManagerLookup  - ISPN000104: Falling back to DummyTransactionManager from Infinispan
+[main] INFO  net.ion.craken.node.Repository  - Workspace[admin] defined
+[main] INFO  net.ion.craken.node.Repository  - emanon started
+[scripter] INFO  net.ion.framework.schedule.Scheduler  - Scheduler started. :{name=scripter,jobs={}}
+[RADON-STARTUP-THREAD] WARN  net.ion.nradon.netty.NettyWebServer  - PORT 9001
+[main] INFO  org.infinispan.factories.GlobalComponentRegistry  - ISPN000128: Infinispan version: Infinispan 'Insanely Bad Elf' 7.2.2.Final
+[main] WARN  org.infinispan.transaction.lookup.GenericTransactionManagerLookup  - ISPN000104: Falling back to DummyTransactionManager from Infinispan
+[main] INFO  net.ion.craken.node.Repository  - Workspace[admin] defined
+[main] INFO  net.ion.craken.node.Repository  - emanon started
+[scripter] INFO  net.ion.framework.schedule.Scheduler  - Scheduler started. :{name=scripter,jobs={}}
+[RADON-STARTUP-THREAD] WARN  net.ion.nradon.netty.NettyWebServer  - PORT 9001
+[main] INFO  org.infinispan.factories.GlobalComponentRegistry  - ISPN000128: Infinispan version: Infinispan 'Insanely Bad Elf' 7.2.2.Final
+[main] WARN  org.infinispan.transaction.lookup.GenericTransactionManagerLookup  - ISPN000104: Falling back to DummyTransactionManager from Infinispan
+[main] INFO  net.ion.craken.node.Repository  - Workspace[admin] defined
+[main] INFO  net.ion.craken.node.Repository  - emanon started
+[scripter] INFO  net.ion.framework.schedule.Scheduler  - Scheduler started. :{name=scripter,jobs={}}
+[RADON-STARTUP-THREAD] WARN  net.ion.nradon.netty.NettyWebServer  - PORT 9001
+[main] INFO  org.infinispan.factories.GlobalComponentRegistry  - ISPN000128: Infinispan version: Infinispan 'Insanely Bad Elf' 7.2.2.Final
+[main] WARN  org.infinispan.transaction.lookup.GenericTransactionManagerLookup  - ISPN000104: Falling back to DummyTransactionManager from Infinispan
+[main] INFO  net.ion.craken.node.Repository  - Workspace[admin] defined
+[main] INFO  net.ion.craken.node.Repository  - emanon started
+[scripter] INFO  net.ion.framework.schedule.Scheduler  - Scheduler started. :{name=scripter,jobs={}}
+[RADON-STARTUP-THREAD] WARN  net.ion.nradon.netty.NettyWebServer  - PORT 9001
+[main] INFO  org.infinispan.factories.GlobalComponentRegistry  - ISPN000128: Infinispan version: Infinispan 'Insanely Bad Elf' 7.2.2.Final
+[main] WARN  org.infinispan.transaction.lookup.GenericTransactionManagerLookup  - ISPN000104: Falling back to DummyTransactionManager from Infinispan
+[main] INFO  net.ion.craken.node.Repository  - Workspace[admin] defined
+[main] INFO  net.ion.craken.node.Repository  - emanon started
+[scripter] INFO  net.ion.framework.schedule.Scheduler  - Scheduler started. :{name=scripter,jobs={}}
+[RADON-STARTUP-THREAD] WARN  net.ion.nradon.netty.NettyWebServer  - PORT 9001
+[Thread-21] INFO  net.ion.craken.node.Repository  - emanon shutdowned
+[Thread-2] INFO  net.ion.craken.node.Repository  - emanon shutdowned
+[main] INFO  org.infinispan.factories.GlobalComponentRegistry  - ISPN000128: Infinispan version: Infinispan 'Insanely Bad Elf' 7.2.2.Final
+[main] WARN  org.infinispan.transaction.lookup.GenericTransactionManagerLookup  - ISPN000104: Falling back to DummyTransactionManager from Infinispan
+[main] INFO  net.ion.craken.node.Repository  - Workspace[admin] defined
+[main] INFO  net.ion.craken.node.Repository  - emanon started
+[scripter] INFO  net.ion.framework.schedule.Scheduler  - Scheduler started. :{name=scripter,jobs={}}
+[RADON-STARTUP-THREAD] WARN  net.ion.nradon.netty.NettyWebServer  - PORT 9001
+[Thread-2] INFO  net.ion.craken.node.Repository  - emanon shutdowned
+[Thread-21] INFO  net.ion.craken.node.Repository  - emanon shutdowned
+[main] INFO  org.infinispan.factories.GlobalComponentRegistry  - ISPN000128: Infinispan version: Infinispan 'Insanely Bad Elf' 7.2.2.Final
+[main] WARN  org.infinispan.transaction.lookup.GenericTransactionManagerLookup  - ISPN000104: Falling back to DummyTransactionManager from Infinispan
+[main] INFO  net.ion.craken.node.Repository  - Workspace[admin] defined
+[main] INFO  net.ion.craken.node.Repository  - emanon started
+[scripter] INFO  net.ion.framework.schedule.Scheduler  - Scheduler started. :{name=scripter,jobs={}}
+[RADON-STARTUP-THREAD] WARN  net.ion.nradon.netty.NettyWebServer  - PORT 9001
+[main] INFO  org.infinispan.configuration.cache.EvictionConfigurationBuilder  - ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+[main] INFO  org.infinispan.configuration.cache.EvictionConfigurationBuilder  - ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+[main] INFO  org.infinispan.factories.GlobalComponentRegistry  - ISPN000128: Infinispan version: Infinispan 'Insanely Bad Elf' 7.2.2.Final
+[main] WARN  org.infinispan.transaction.lookup.GenericTransactionManagerLookup  - ISPN000104: Falling back to DummyTransactionManager from Infinispan
+[main] INFO  net.ion.craken.node.Repository  - Workspace[test] defined
+[main] INFO  net.ion.craken.node.Repository  - emanon started
+[Thread-2] INFO  net.ion.craken.node.Repository  - emanon shutdowned
+[main] INFO  org.infinispan.configuration.cache.EvictionConfigurationBuilder  - ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+[main] INFO  org.infinispan.configuration.cache.EvictionConfigurationBuilder  - ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+[main] INFO  org.infinispan.factories.GlobalComponentRegistry  - ISPN000128: Infinispan version: Infinispan 'Insanely Bad Elf' 7.2.2.Final
+[main] WARN  org.infinispan.transaction.lookup.GenericTransactionManagerLookup  - ISPN000104: Falling back to DummyTransactionManager from Infinispan
+[main] INFO  net.ion.craken.node.Repository  - Workspace[test] defined
+[main] INFO  net.ion.craken.node.Repository  - emanon started
+[Thread-2] INFO  net.ion.craken.node.Repository  - emanon shutdowned
