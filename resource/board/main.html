@@ -22,7 +22,7 @@ list<br/>
 	$(document).ready(function() {
 		$.ajax({
 			type : "get",
-			url : "/api/board/main",
+			url : "/admin/board/main",
 			dataType : "text",
 			success : function(data) {
 				var json = JSON.parse(data).list; 
@@ -55,7 +55,7 @@ list<br/>
 		
 		$.ajax({
 			type : "post",
-			url : "/api/board/delete",
+			url : "/admin/board/delete",
 			data : $("#frm").serialize(),
 			dataType : "text",
 			success : function(data) {

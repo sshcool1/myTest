@@ -1,4 +1,4 @@
-package net.ion.board;
+package net.ion.board.webapp.board;
 
 public class BoardBean {
 	

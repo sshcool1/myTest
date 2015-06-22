@@ -1,14 +1,17 @@
-package net.ion.board;
+package net.ion.board.webapp.board;
 
+import java.io.IOException;
 import java.util.Iterator;
 import java.util.concurrent.ExecutionException;
 
+import javax.ws.rs.DELETE;
 import javax.ws.rs.FormParam;
 import javax.ws.rs.GET;
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
 import javax.ws.rs.QueryParam;
 
+import net.ion.board.webapp.REntry;
 import net.ion.craken.node.ReadNode;
 import net.ion.craken.node.ReadSession;
 import net.ion.craken.node.TransactionJob;
@@ -20,18 +23,19 @@ import net.ion.radon.core.ContextParam;
 
 import com.google.common.base.Function;
 
-@Path("/api/board")
+@Path("/board")
 public class BoardWeb {
 	
 	private ReadSession rsession;
 	
-	public BoardWeb(@ContextParam("session") ReadSession rsession){
-		this.rsession = rsession;
+	public BoardWeb(@ContextParam("rentry") REntry rentry) throws IOException{
+		this.rsession = rentry.login(); 
 	}
 	//list
 	@GET
 	@Path("/main")
 	public JsonObject boardMain() {
+		    
 		ReadChildren children = rsession.ghostBy("/board/notice").children();
 		
 		return new JsonObject().put("list", children.transform(new Function<Iterator<ReadNode>, JsonArray>(){
@@ -44,7 +48,7 @@ public class BoardWeb {
 				}
 				return result;
 			}
-		}));
+		})).put("info", rsession.ghostBy("/menus/myboard").property("board").asString());
 	}
 	//insert
 	@POST
@@ -90,7 +94,7 @@ public class BoardWeb {
 	}
 	
 	//delete 
-	@POST
+	@DELETE
 	@Path("/delete") 
 	public JsonObject boardDelete(@FormParam("seq")final String seq ) throws InterruptedException, ExecutionException  {
 		if(!exists(seq)) {

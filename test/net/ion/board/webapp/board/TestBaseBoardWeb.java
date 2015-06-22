@@ -1,6 +1,7 @@
-package net.ion.board;
+package net.ion.board.webapp.board;
 
 import junit.framework.TestCase;
+import net.ion.board.webapp.board.BoardWeb;
 import net.ion.craken.node.ReadSession;
 import net.ion.craken.node.crud.Craken;
 import net.ion.radon.client.StubServer;

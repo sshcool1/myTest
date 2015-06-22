@@ -1,4 +1,4 @@
-package net.ion.board;
+package net.ion.board.webapp.board;
 
 import net.ion.framework.parse.gson.JsonObject;
 import net.ion.nradon.stub.StubHttpResponse;

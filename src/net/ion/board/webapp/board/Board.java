@@ -1,4 +1,4 @@
-package net.ion.board;
+package net.ion.board.webapp.board;
 
 import java.util.ArrayList;
 import java.util.List;

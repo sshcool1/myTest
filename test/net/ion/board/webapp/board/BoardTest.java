@@ -1,9 +1,11 @@
-package net.ion.board;
+package net.ion.board.webapp.board;
 
 import java.io.IOException;
 import java.util.List;
 
 import junit.framework.TestCase;
+import net.ion.board.webapp.board.Board;
+import net.ion.board.webapp.board.BoardBean;
 import net.ion.craken.node.ReadSession;
 import net.ion.craken.node.crud.Craken;
 

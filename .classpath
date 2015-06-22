@@ -11,13 +11,16 @@
 	<classpathentry kind="lib" path="lib/infinispan-embedded-query-7.2.2.Final.jar"/>
 	<classpathentry kind="lib" path="lib/infinispan722_fat.jar"/>
 	<classpathentry kind="lib" path="lib/netty-3.4.6.Final.jar"/>
-	<classpathentry kind="lib" path="lib/search_util_fat.jar"/>
-	<classpathentry kind="lib" path="lib/search4104_fat.jar"/>
 	<classpathentry kind="lib" path="lib/isearcher_4.10.jar"/>
+	<classpathentry kind="lib" path="lib/search4104_fat.jar"/>
+	<classpathentry kind="lib" path="lib/search_util_fat.jar"/>
 	<classpathentry kind="lib" path="lib/cglib-nodep-2.2.3.jar"/>
 	<classpathentry kind="lib" path="lib/aradon311_0.9.jar" sourcepath="/Aradon311"/>
 	<classpathentry kind="lib" path="lib/apache_extend_fat.jar"/>
 	<classpathentry kind="lib" path="lib/jsr311_fat.jar"/>
-	<classpathentry kind="lib" path="lib/iframework_2.3.jar"/>
+	<classpathentry kind="lib" path="lib/iframework_2.3.jar" sourcepath="/IFramework"/>
+	<classpathentry kind="lib" path="lib/velocity-1.7.jar"/>
+	<classpathentry kind="lib" path="lib/icrawler_0.5.jar"/>
+	<classpathentry kind="lib" path="lib/aclient_0.5.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
