@@ -20,7 +20,7 @@ public class TestAradon extends TestCase{
 				.startRadon();*/
 		
 		
-		
+		System.out.println("MASTER");
 		
 		
 		
