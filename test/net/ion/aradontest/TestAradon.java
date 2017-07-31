@@ -18,8 +18,12 @@ public class TestAradon extends TestCase{
 		/*Radon radon = RadonConfiguration.newBuilder(9500)
 				.add(new PathHandler(TestHello.class))
 				.startRadon();*/
+
 		System.out.println("V3");
 		System.out.println("기능추가");
+		
+		System.out.println("MASTER");
+		System.out.println("MASTER/V3머지완료 ");
 		
 		
 		new InfinityThread().startNJoin();
