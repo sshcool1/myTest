@@ -19,6 +19,7 @@ public class TestAradon extends TestCase{
 				.add(new PathHandler(TestHello.class))
 				.startRadon();*/
 		System.out.println("V3");
+		System.out.println("기능추가");
 		
 		
 		new InfinityThread().startNJoin();
