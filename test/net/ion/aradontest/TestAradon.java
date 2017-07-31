@@ -18,10 +18,7 @@ public class TestAradon extends TestCase{
 		/*Radon radon = RadonConfiguration.newBuilder(9500)
 				.add(new PathHandler(TestHello.class))
 				.startRadon();*/
-		
-		
-		
-		
+		System.out.println("V3");
 		
 		
 		new InfinityThread().startNJoin();
