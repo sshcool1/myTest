@@ -18,6 +18,8 @@ public class TestFunc extends TestCase {
 
 	public void testDefaultValue() throws Exception {
 		Options opt = new Options(new String[0]) ;
+		
+		
 		String value = opt.getString("config", "./resource/config/niss-config.xml");
 		
 		assertEquals("./resource/config/niss-config.xml", value);
