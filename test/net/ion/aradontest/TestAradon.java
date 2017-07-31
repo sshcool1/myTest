@@ -19,6 +19,11 @@ public class TestAradon extends TestCase{
 				.add(new PathHandler(TestHello.class))
 				.startRadon();*/
 		
+		
+		
+		
+		
+		
 		new InfinityThread().startNJoin();
 	}
 	
